@@ -30,6 +30,7 @@ _
 <h2>Useful Links</h2>
 <ul>
 <li><a href="https://github.com/fegastal/42SP_ft_printf_contents/blob/main/variadic_functions.pdf">Variadic Functions</a></li>
+<li><a href="https://github.com/fegastal/42SP_ft_printf_contents/blob/main/CS50x_Harvard_c_language.pdf">C Language | Harvard School</a></li>
 </ul>
 
 <h2>Requirements (Mandatory Part)</h2>
