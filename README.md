@@ -4,8 +4,6 @@
 <h1 align="center">ft_printf</h1>
 <p align="center">You will recode printf(). You will mainly learn about using a variable number of arguments.</p>
 
-_
-
 - PROGRAM NAME |
 libftprintf.a
 
