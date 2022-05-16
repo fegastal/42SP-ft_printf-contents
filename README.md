@@ -29,7 +29,7 @@ Write a library that contains ft_printf(), a function that will mimic the origin
 int ft_printf(const char *, ...);
 _
 
-<h2>Useful Links</h2>
+<h2>USEFUL LINKS</h2>
 <ul>
 <li><a href="https://github.com/fegastal/42SP_ft_printf_contents/blob/main/variadic_functions.pdf">Variadic Functions</a></li>
 </ul>
