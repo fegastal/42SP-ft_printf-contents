@@ -3,11 +3,7 @@
 </p>
 <h1 align="center">ft_printf</h1>
 <p align="center">You will recode printf(). You will mainly learn about using a variable number of arguments.</p>
-// <p align="center">
-// <img src="https://img.shields.io/badge/Mandatory-OK-brightgreen"/>
-// <img src="https://img.shields.io/badge/Bonus-OK-brightgreen"/>
-// <img src="https://img.shields.io/badge/Final%20Score-112-blue"/>
-// </p>
+
 _
 
 - PROGRAM NAME |
