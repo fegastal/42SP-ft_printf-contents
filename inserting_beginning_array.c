@@ -11,7 +11,7 @@ int add_beg(int arr[], int n, int data)
         arr[i+1] = arr[i];
     }
     arr[0] = data;
-    return n+1;
+    return n+1; // Considering that the array is NOT full
 }
 int main() {
     int arr[10], data = 10, i, n;
