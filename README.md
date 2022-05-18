@@ -1,54 +1,54 @@
-<p align="center">
-<img src="./gnl-logo.png" />
-</p>
-<h1 align="center">ft_printf</h1>
-<p align="center">You will recode printf(). You will mainly learn about using a variable number of arguments.</p>
+# ft_printf
+✅ Project score: 109/100 ✅  
+The versatility of the printf function in C, the ease of its formatting and its support of diverse types in variable numbers, makes it a really good function to reprogram!  
 
-- PROGRAM NAME |
-libftprintf.a
+```c
+int		ft_printf(const char *format, ...)
+```  
+The function ft_printf, mimicking stdio's function printf, writes a string to the standard output. If it's parameter 'format' includes format specifiers (subsequences beginning with %), the additional arguments following format (variadic function) are formatted and inserted into the resulting string replacing their respective specifiers. It returns the number of output characters.  
 
-- TURN IN FILES |
-Makefile, *.h, */*.h, *.c, */*.c
+You can read more about it [here](https://www.dummies.com/programming/cpp/using-printf-for-output/) - this link was my best friend during this project!  
 
-- MAKEFILE |
-NAME, all, clean, fclean, re
+Through this project, I learned the importance of well-structured, readable and extendable code. The nature of this function makes it vital to have a proper plan before you start coding - no brute-forcing your way through this one!  
 
-- EXTERNAL FUNCTS |
-malloc, free, write,
-va_start, va_arg, va_copy, va_end
+### It handles the following types:  
 
-- LIBFT AUTHORIZED |
-Yes.
+| Type specifier | Type                     | Example       | Supported flags                     |
+| -------------- | ------------------------ | ------------- | ----------------------------------- |
+| d / i          | Signed decimal int       | –123          | -, +, space, 0, width, precision    |
+| o              | Unsigned octal           | 05670         | -, +, space, #, 0, width, precision |
+| u              | Unsigned decimal int     | 456           | -, +, space, 0, width, precision    | 
+| x / X          | Unsigned hex lower/upper | 89abc / 89ABC | -, +, space, #, 0, width, precision |
+| f              | Decimal floating point   | 123.456       | -, +, space, #, 0, width, precision | 
+| c              | Char                     | c             | -, width, precision                 |
+| s              | Char string              | abcd          | -, width, precision                 |
+| p              | Pointer address          | bc080         | -, width, recision                  |
+| b              | Binary                   | 10101         | -, +, space, #, 0, width, precision |  
 
-- DESCRIPTION |
-Write a library that contains ft_printf(), a function that will mimic the original printf().
+### The flags carry out the following actions:  
+| Flag       | Function                                                                   |
+| ---------- | -------------------------------------------------------------------------- |
+| -          | Left justifies output                                                      |
+| +          | Precedes positive ints with +                                              |
+| space      | Inserts a blank space if no sign is to be written                          |
+| #          | Precedes number with 0, 0x, or 0X                                          |
+| # (type f) | Includes a decimal point even if the fractional part of the int is zero    |
+| 0          | Left-pads ints using zeroes                                                |
+| width      | (given as a number) The minimum number of chars to allocate for width      |
+| precision  | (given as a number) The minimum number of chars to allocate for precision  |
 
-- PROTOTYPE |
-int ft_printf(const char *, ...);
-_
+### The types support the following conversions:
+| Conversion |	d / i       | o / u / x / X	     | f           | 
+| ---------- | ------------ | ------------------ | ----------- | 
+| None	     | int	        | unsigned int	     | double      |
+| hh	       | signed char	| unsigned char      | none        |
+| h 	       | signed short	| unsigned short     | none        | 
+| l 	       | long	        | unsigned long      | none        | 
+| ll 	       | long	long    | unsigned long long | none        | 
+| L          | none         | none               | long double | 
 
-<h2>Useful Links</h2>
-<ul>
-<li><a href="https://github.com/fegastal/42SP_ft_printf_contents/blob/main/variadic_functions.pdf">Variadic Functions</a></li>
-<li><a href="https://github.com/fegastal/42SP_ft_printf_contents/blob/main/CS50x_Harvard_c_language.pdf">C Language | Harvard School</a></li>
-<li><a href="https://github.com/fegastal/DataStructures-Singly-Linked-List">Data Structures | Singly Linked List</a></li>
-</ul>
+## How to run it:
+Clone the repo and run the executable ./ft_printf (some tests are included in the main). Alternatively, add your own tests to the main.c file, run the command "make re" then run the executable ./ft_printf and repeat to your heart's content!  
 
-<h2>Requirements (Mandatory Part)</h2>
-<ul>
-<li>Don’t implement the buffer management of the original printf().</li>
-<li>Your function has to handle the following conversions: cspdiuxX%</li>
-<li>Your function will be compared against the original printf().</li>
-<li>You must use the command ar to create your library. Using the libtool command is forbidden.</li>
-<li>Your libftprintf.a has to be created at the root of your repository</li>
-<li>You have to implement the following conversions:</li>
-<li>• %c Prints a single character</li>
-<li>• %s Prints a string (as defined by the common C convention).</li>
-<li>• %p The void * pointer argument has to be printed in hexadecimal format.</li>
-<li>• %d Prints a decimal (base 10) number.</li>
-<li>• %i Prints an integer in base 10.</li>
-<li>• %u Prints an unsigned decimal (base 10) number.</li>
-<li>• %x Prints a number in hexadecimal (base 16) lowercase format</li>
-<li>• %X Prints a number in hexadecimal (base 16) uppercase format.</li>
-<li>• %% Prints a percent sign.</li>
-</ul>
+Here's a screenshot of some of the output of built-in tests:  
+![pf_tests](/pf_output.png)
