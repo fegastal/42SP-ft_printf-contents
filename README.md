@@ -45,7 +45,7 @@ Through this project, I'm learning about the importance of well-structured, read
 | L          | none         | none               | long double | 
 
 ## How to run it:
-Clone the repo and run the executable ./ft_printf (some tests are included in the main). Alternatively, add your own tests to the main.c file, run the command "make re" then run the executable ./ft_printf and repeat to your heart's content!  
+Clone the repo and run the executable ./ft_printf (some tests are included in the main). Alternatively, add your own tests to the main.c file, run the command "make re" then run the executable ./ft_printf and repeat. :)
 
 Here's a screenshot of some of the output of built-in tests:  
 ![pf_tests](/pf_output.png)
