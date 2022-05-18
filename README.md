@@ -1,5 +1,4 @@
 # ft_printf
-✅ Project score: 109/100 ✅  
 The versatility of the printf function in C, the ease of its formatting and its support of diverse types in variable numbers, makes it a really good function to reprogram!  
 
 ```c
