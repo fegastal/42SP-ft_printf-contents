@@ -6,7 +6,6 @@
 <img src="https://img.shields.io/badge/Mandatory-OK-brightgreen"/>
 <img src="https://img.shields.io/badge/Final%20Score-100-blue"/>
 </p>
-_
 
 The versatility of the printf function in C, the ease of its formatting and its support of diverse types in variable numbers, makes it a really good function to reprogram!  
 
