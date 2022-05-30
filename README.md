@@ -1,6 +1,5 @@
 <p align="center">
-<img src="./Logo-printf.jpg"/>
-</p>
+<img src="./Logo-printf.jpg"/></p>
 <h1 align="center">ft_printf</h1>
 <p align="center">You will recode printf(). You will mainly learn about using a variable number of arguments.</p>
 <p align="center">
