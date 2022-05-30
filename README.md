@@ -1,4 +1,14 @@
-# ft_printf
+<p align="center">
+<img src="./logo_printf.png"/>
+</p>
+<h1 align="center">ft_printf</h1>
+<p align="center">You will recode printf(). You will mainly learn about using a variable number of arguments.</p>
+<p align="center">
+<img src="https://img.shields.io/badge/Mandatory-OK-brightgreen"/>
+<img src="https://img.shields.io/badge/Final%20Score-100-blue"/>
+</p>
+_
+
 The versatility of the printf function in C, the ease of its formatting and its support of diverse types in variable numbers, makes it a really good function to reprogram!  
 
 ```c
